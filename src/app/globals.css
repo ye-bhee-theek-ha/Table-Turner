@@ -7,6 +7,20 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "CretoDispay Black";
+  src: url("@/../../../public/Fonts/CreatoDisplay-Black.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  src: url("@/../../../public/Fonts/Comfortaa-VariableFont_wght.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 @theme {
   --color-primary-orange: #FF5E18;
   --color-primary: #34A853;
@@ -16,7 +30,7 @@
   --color-alert-green: #CAE9B7;
   --color-alert-green-light: #EDFFE1;
 
-  --text-hero: 100px;
+  --text-hero: 90px;
   --text-h1: 68px;
   --text-h2: 56px;
   --text-h3: 48px;
@@ -36,6 +50,10 @@
 
   --font-*:initial;
   --default-font-family:"CretoDispay";
+  --font-creto-black: "CretoDispay Black", "sans-serif";
+  --font-creto-black: "CretoDispay", "sans-serif";
+  --font-comfortaa: "Comfortaa", "sans-serif";
+
   --leading-normal: 1.2;
 }
 
